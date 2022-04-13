@@ -1,3 +1,7 @@
+// Program Name: GPA FCAI Second Semester Calculator
+// Last Modification Date: 13/04/2022
+// Author : Abdelrahman Mohamed
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
