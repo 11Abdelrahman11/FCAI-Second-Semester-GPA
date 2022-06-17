@@ -1,5 +1,5 @@
 // Program Name: GPA FCAI Second Semester Calculator
-// Last Modification Date: 13/04/2022
+// Last Modification Date: 18/06/2022
 // Author : Abdelrahman Mohamed
 
 #include <iostream>
@@ -17,9 +17,10 @@ int Length ( double n );
 int main()
 {
     bool again = true;
-    string grades[8], subjects[] = {"Programing 1", "Discrete Math", "Math 2", "Stat 1", "Economics", "Ethics", "Critical Thinking"};
+    string grades[9], subjects[] = {"Programing 1", "Discrete Math", "Math 2", "Stat 1", "Economics", "Ethics", "Critical Thinking"};
     int degrees[7],creditHours[6] = {3, 3, 3, 3, 2, 2}, totalHours = 0;
-    double points[7], value = 0, GPA = 0;
+    double points[7], value = 0;
+    float GPA;
     char answer;
     while(again){
         again = false;
@@ -126,7 +127,7 @@ int main()
             cout << "GPA" << setw(14) << "" << "| " << GPA << setw(9) << "" << "| " << grades[8] << endl;
         }
         else{
-            cout << "GPA" << setw(14) << "" << "| " << GPA << setw(10 - Length(GPA)) << "" << "| " << grades[8] << endl;
+            cout << "GPA" << setw(14) << "" << "| " << setprecision(2) << GPA << setw(7) << "" << "| " << grades[8] << endl;
         }
         cout << setfill('-');
         cout << setw(36) << "" << endl;
