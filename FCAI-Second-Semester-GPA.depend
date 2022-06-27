@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1656346069 source:e:\study\github\fcai-second-semester-gpa\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstring>
+	"FCAI-Second-Semester-GPA.h"
+
+1656345921 e:\study\github\fcai-second-semester-gpa\fcai-second-semester-gpa.h
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstring>
+	"FCAI-Second-Semester-GPA.h"
+
+1656346091 source:e:\study\github\fcai-second-semester-gpa\fcai-second-semester-gpa-implementation.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstring>
+	"FCAI-Second-Semester-GPA.h"
+
